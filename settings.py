@@ -79,6 +79,7 @@ from __future__ import absolute_import, unicode_literals
 # INSTALLED_APPS setting.
 USE_SOUTH = True
 
+USE_X_FORWARDED_HOST = True
 
 ########################
 # MAIN DJANGO SETTINGS #
